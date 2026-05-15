@@ -1,0 +1,30 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: blanchedalmond;
+}
+
+.header_nav-list {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.header_nav-link-item {
+    color: rgb(165, 93, 42);
+    text-decoration: none;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    transition: color 0.5s;
+}
+
+.header_nav-link-item:hover {
+    color: rgb(220, 146, 94);
+}

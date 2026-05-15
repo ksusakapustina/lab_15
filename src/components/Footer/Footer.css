@@ -1,0 +1,10 @@
+.footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20 px 40 px;
+    background-color: blanchedalmond;
+}
+
+.footer_info {
+    color: rgb(165, 93, 42);
+}

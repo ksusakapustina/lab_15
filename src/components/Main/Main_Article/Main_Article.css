@@ -1,0 +1,14 @@
+main span h1,
+main span h2,
+main span {
+    text-align: center;
+}
+
+main span h3 {
+    text-align: justify;
+}
+
+main p {
+    text-align: justify;
+    text-justify: inter-word
+}
